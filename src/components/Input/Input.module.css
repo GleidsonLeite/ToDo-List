@@ -1,0 +1,18 @@
+.container {
+    background-color: var(--gray-500);
+    width: 100%;
+    outline: none;
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-500);
+    color: var(--gray-300);
+    padding: 1rem;
+    font-size: 1rem;
+
+    transition: all 0.2s;
+}
+
+.container:not(:placeholder-shown) {
+    color: var(--gray-100);
+    border-color: var(--purple-dark);
+}

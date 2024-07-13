@@ -1,0 +1,12 @@
+.container {
+    width: min-content;
+    height: min-content;
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    font-size: 0.75rem;
+
+    font-weight: bold;
+}

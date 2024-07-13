@@ -1,0 +1,25 @@
+.container {
+    /* remove buttons default style */
+    background: none;
+    border: none;
+    width: min-content;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    color: var(--gray-300);
+    
+}
+
+.container > svg {
+    height: 0.875rem;
+    width: auto;
+}
+
+.container:hover {
+    color: var(--danger);
+    background-color: var(--gray-400);
+    border-radius: 4px;
+}

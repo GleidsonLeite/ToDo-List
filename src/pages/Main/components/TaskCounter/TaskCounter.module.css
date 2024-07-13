@@ -1,0 +1,16 @@
+.container {
+    width: min-content;
+    height: min-content;
+
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.container > h1 {
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: bold;
+}

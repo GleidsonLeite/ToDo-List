@@ -1,0 +1,13 @@
+.container {
+    width: min-content;
+    height: min-content;
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    & > img {
+        height: 2.25rem;
+        width: auto;
+    }
+}
